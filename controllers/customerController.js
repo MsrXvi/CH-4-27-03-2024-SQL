@@ -6,7 +6,7 @@ const createCustomer = async (req, res) => {
     const {name, age, email, city } = req.body
 
     try {
-        const newCustomer = await customer.create({
+        const newCustomer = await Customer.create({
             name,
             email,
             age,

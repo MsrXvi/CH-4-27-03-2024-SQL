@@ -1,7 +1,7 @@
 const router = require("express").Router()
 
-const customer = require("../controllers/customerController")
+const Customer = require("../controllers/customerController")
 
-router.post("/", customer.createCustomer)
+router.post("/", Customer.createCustomer)
 
 module.exports = router

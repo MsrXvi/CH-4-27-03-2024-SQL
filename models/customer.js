@@ -23,8 +23,8 @@ module.exports = (sequelize, DataTypes) => {
     },
     city: DataTypes.STRING,
     photo: {
-     type: DataTypes.TEXT,
-     defaultValue: "user-default.jpg"
+    type: DataTypes.TEXT,
+    defaultValue: "user-default.jpg"
     }
     }, {
     sequelize,
